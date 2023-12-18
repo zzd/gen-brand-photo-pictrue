@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
 #app {
   width: 800px;
   margin: 0 auto;
@@ -18,10 +20,12 @@
 }
 
 .preview-info {
+  font-family: 'Zilla Slab', serif;
   padding: 20px;
   display: flex;
   flex-direction: row;
 }
+
 .preview-info-left {
   flex-grow: 1;
   width: 0;
@@ -31,6 +35,7 @@
   align-items: flex-start;
   justify-content: center;
 }
+
 .preview-info-split {
   border-left: 2px solid #ddd;
   height: 39px;
@@ -38,22 +43,26 @@
   margin-right: 12px;
   margin-left: 12px;
 }
+
 .preview-info-right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
+
 .preview-info-model,
 .preview-info-device {
   font-weight: bold;
   font-size: 18px;
 }
+
 .preview-info-date,
 .preview-info-gps {
   font-size: 14px;
   color: #aaa;
 }
+
 .preview-info-brand {
   position: absolute;
   right: 0;
